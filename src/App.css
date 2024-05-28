@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+.section {
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background: lightblue;
+  border: 1px solid #000;
+}
