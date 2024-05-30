@@ -24,22 +24,22 @@ export const Navbar = () => {
 
   return (
     <div
-      className={`fixed flex justify-between top-0 w-full bg-transparent border-b-2 border-current text-white p-4 transition-transform duration-300 ${
+      className={`fixed flex justify-between top-0 w-full bg-transparent text-white py-10 px-14 backdrop-blur-lg transition-transform duration-300 ${
         isVisible ? 'transform translate-y-0' : 'transform -translate-y-full'
       }`}
     >
-      <div>
-        <text className="text-5xl font-bold bg-gradient-to-l from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
+      <div className='flex justify-between items-center'>
+        <text className="text-5xl font-bold text-[#00B68F] bg-clip-text text-transparent drop-shadow-2xl shadow-[#00B68F]">
           N
         </text>
-        <text className='text-4xl font-bold'>ikry</text>
+        <text className='text-4xl font-semibold ml-4'>Portfolio</text>
       </div>
       <div className='flex gap-4'>
         <a href="https://github.com/NikSleepy">
-        <IoLogoGithub size={45} />
+        <IoLogoGithub size={45} color='#00B68F'/>
         </a>
         <a href="">
-          <FaLinkedin size={45} />
+          <FaLinkedin size={45} color='#00B68F'/>
         </a>
         <a href=""></a>
       </div>

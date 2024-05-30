@@ -36,11 +36,10 @@ export const HorizontalScroll = () => {
     <section className='overflow-hidden'>
         <div ref={triggerRef}>
             <div ref={sectionRef} className='h-screen w-[400vw] flex relative '>
-                <div className='bg-red-500 w-screen h-screen'>section 1</div>
-                <div className='bg-green-500 w-screen h-screen'>section 2</div>
-                <div className='bg-blue-500 w-screen h-screen'>section 3</div>
-                <div className='bg-yellow-500 w-screen h-screen'>section 4</div>
-
+                <div className='bg-red-500 w-[100vw] h-screen'>section 1</div>
+                <div className='bg-green-500 w-[100vw] h-screen'>section 2</div>
+                <div className='bg-blue-500 w-[100vw] h-screen'>section 3</div>
+                <div className='bg-yellow-500 w-[100vw] h-screen'>section 4</div>
             </div>
         </div>
     </section>
