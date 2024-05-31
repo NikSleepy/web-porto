@@ -11,33 +11,32 @@ export const MyService = () => {
       </div>
 
       <div className="flex justify-center gap-8">
-        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-md p-6 ">
-          <img src="/img/ui-ux.png" alt="ui-ux" className="w-[50%] " />
+        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
+          <img src="/img/coding.png" alt="ui-ux" className="w-[50%] " />
           <div className="flex flex-col text-center py-4">
-            <p className="text-xl font-semibold">UI/UX Designer</p>
-            <p className='text-justify mt-4'>
-              creating visually appealing and intuitive interfaces, and ensuring
-              a pleasant and efficient user experience through user-focused
-              research and design.
+            <p className="text-xl font-semibold">Performance Optimization</p>
+            <p className="text-justify mt-4">
+              Optimize code and assets to ensure fast load times, including
+              techniques like lazy loading and minification.
             </p>
           </div>
         </div>
-        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-md p-6 ">
-          <img src="/img/ui-ux.png" alt="ui-ux" className="w-[50%] " />
+        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
+          <img src="/img/responsiveLogo.png" alt="ui-ux" className="w-[50%] " />
           <div className="flex flex-col text-center py-4">
-            <p className="text-xl font-semibold">UI/UX Designer</p>
-            <p className='text-justify mt-4'>
-              creating visually appealing and intuitive interfaces, and ensuring
-              a pleasant and efficient user experience through user-focused
-              research and design.
+            <p className="text-xl font-semibold">Responsive Web Design</p>
+            <p className="text-justify mt-4">
+              Developed a responsive design that adapts to different screen
+              sizes and devices, ensuring a consistent and optimized user
+              experience.
             </p>
           </div>
         </div>
-        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-md p-6 ">
+        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
           <img src="/img/ui-ux.png" alt="ui-ux" className="w-[50%] " />
           <div className="flex flex-col text-center py-4">
             <p className="text-xl font-semibold">UI/UX Designer</p>
-            <p className='text-justify mt-4'>
+            <p className="text-justify mt-4">
               creating visually appealing and intuitive interfaces, and ensuring
               a pleasant and efficient user experience through user-focused
               research and design.
