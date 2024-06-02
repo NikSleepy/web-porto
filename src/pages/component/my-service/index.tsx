@@ -3,7 +3,7 @@ import React from 'react';
 export const MyService = () => {
   return (
     <div className="w-screen h-screen py-10 px-14  bg-[#161B21]">
-      <div className="flex flex-col gap-4 mb-20">
+      <div className="flex flex-col text-center gap-4 mb-20">
         <p className="text-xl ">
           My <span className="text-[#00B68F]">Services</span>
         </p>
