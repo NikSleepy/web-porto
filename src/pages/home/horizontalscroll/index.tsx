@@ -112,9 +112,7 @@ export const HorizontalScroll = () => {
               </div>
             </div>
           </div>
-          {/* <div className=" w-[100vw] h-screen">section 2</div>
-          <div className=" w-[100vw] h-screen">section 3</div> */}
-          {/* <div className=" w-[100vw] h-screen">section 4</div> */}
+          
         </div>
       </div>
     </section>
