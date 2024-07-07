@@ -1,17 +1,51 @@
 [
   {
+    "id": 1,
     "img": "circle_apps.png",
-    "tiltle": "Circle Apss",
+    "title": "Circle Apss",
+    "frontend": [
+      {
+        "name": "React"
+      },
+      {
+        "name": "Typescript"
+      },
+      {
+        "name": "Chakra UI"
+      },
+      {
+        "name": "Redux"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express JS"
+      },
+      {
+        "name": "Typescript"
+      },
+      {
+        "name": "Postgres"
+      },
+      {
+        "name": "Cloudinary"
+      }
+    ],
+    "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community. Its main features include short message posting, multimedia content sharing, and retweet and like mechanisms similar to Twitter. Circle Apps aims to create an environment for sharing thoughts and interacting with people who share similar interests."
+  },
+  {
+    "id": 2,
+    "img": "trivia-apps.png",
+    "title": "Trivia",
     "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
   },
   {
-    "img": "circle_apps.png",
-    "tiltle": "Trivia",
-    "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
-  },
-  {
-    "img": "circle_apps.png",
-    "tiltle": "Micro Logic",
+    "id": 3,
+    "img": "Micro.png",
+    "title": "Micro Logic",
     "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
   }
 ]

@@ -2,6 +2,14 @@ import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 
 export const Head = () => {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/pdf/CV_Nikri Aria Pratama.pdf';
+    link.download = 'CV_Nikri Aria Pratama.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="w-screen h-screen flex flex-col justify-center items-center bg-no-repeat bg-center bg-cover overflow-hidden">
       <div className="w-[80%] h-[60%]  p-6 rounded-md flex justify-between text-white ">
@@ -32,9 +40,12 @@ export const Head = () => {
               Let's Talk
             </button>
 
-            <button className='flex justify-center items-center gap-2 bg-[#00B68F] text-white font-semibold rounded-md py-2 my-4 px-4 drop-shadow-[0_2px_10px_rgba(0,182,143)] hover:drop-shadow-[0_4px_10px_rgba(0,182,143)] hover:bg-white hover:text-[#00B68F]'>
+            <button
+              className="flex justify-center items-center gap-2 bg-[#00B68F] text-white font-semibold rounded-md py-2 my-4 px-4 drop-shadow-[0_2px_10px_rgba(0,182,143)] hover:drop-shadow-[0_4px_10px_rgba(0,182,143)] hover:bg-white hover:text-[#00B68F]"
+              onClick={handleDownload}
+            >
               Download CV
-               <FaDownload size={20} />
+              <FaDownload size={20} />
             </button>
           </div>
         </div>
