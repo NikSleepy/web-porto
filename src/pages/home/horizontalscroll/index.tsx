@@ -1,6 +1,7 @@
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const HorizontalScroll = () => {
   const sectionRef = React.useRef(null);
@@ -53,6 +54,12 @@ export const HorizontalScroll = () => {
                     Apps aims to create an environment for sharing thoughts and
                     interacting with people who share similar interests.
                   </p>
+
+                  <div className="w-1/4 flex justify-center  bg-[#00B68F] text-white font-semibold rounded-md p-2 my-4 drop-shadow-[0_2px_10px_rgba(0,182,143)] hover:drop-shadow-[0_4px_10px_rgba(0,182,143)] hover:bg-white hover:text-[#00B68F]">
+                    <button>
+                      <Link to={'/project/1'}>See More</Link>
+                    </button>
+                  </div>
                 </div>
                 <img
                   src="/img/circle_apps.png"
@@ -76,6 +83,12 @@ export const HorizontalScroll = () => {
                     functionality, Micro Logic helps users complete everyday
                     tasks more efficiently and enjoyably.
                   </p>
+
+                  <div className="w-1/4 flex justify-center  bg-[#00B68F] text-white font-semibold rounded-md p-2 my-4 drop-shadow-[0_2px_10px_rgba(0,182,143)] hover:drop-shadow-[0_4px_10px_rgba(0,182,143)] hover:bg-white hover:text-[#00B68F]">
+                    <button>
+                      <Link to={'/project/2'}>See More</Link>
+                    </button>
+                  </div>
                 </div>
                 <img
                   src="/img/Micro.png"
@@ -101,6 +114,11 @@ export const HorizontalScroll = () => {
                     levels, a points system and leaderboards to increase
                     competition.
                   </p>
+                  <div className="w-1/4 flex justify-center  bg-[#00B68F] text-white font-semibold rounded-md p-2 my-4 drop-shadow-[0_2px_10px_rgba(0,182,143)] hover:drop-shadow-[0_4px_10px_rgba(0,182,143)] hover:bg-white hover:text-[#00B68F]">
+                    <button>
+                      <Link to={'/project/3'}>See More</Link>
+                    </button>
+                  </div>
                 </div>
                 <div className=" w-[65%] flex justify-center  gap-4">
                   <img

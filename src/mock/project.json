@@ -5,47 +5,56 @@
     "title": "Circle Apss",
     "frontend": [
       {
-        "name": "React"
+        "name": "React",
+        "icon": "react.png"
       },
       {
-        "name": "Typescript"
+        "name": "Typescript",
+        "icon": "typescript.png"
       },
       {
-        "name": "Chakra UI"
+        "name": "ChakraUI",
+        "icon": "chakraUI.png"
       },
       {
-        "name": "Redux"
+        "name": "Redux",
+        "icon": "redux.png"
       }
     ],
     "backend": [
       {
-        "name": "Node.js"
+        "name": "Node.js",
+        "icon": "nodejs.png"
       },
       {
-        "name": "Express JS"
+        "name": "Typescript",
+        "icon": "typescript.png"
       },
       {
-        "name": "Typescript"
+        "name": "Express.JS",
+        "icon": "express.png"
       },
       {
-        "name": "Postgres"
+        "name": "Postgres",
+        "icon": "postgre.png"
       },
       {
-        "name": "Cloudinary"
+        "name": "Cloudinary",
+        "icon": "clouds.png"
       }
     ],
     "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community. Its main features include short message posting, multimedia content sharing, and retweet and like mechanisms similar to Twitter. Circle Apps aims to create an environment for sharing thoughts and interacting with people who share similar interests."
   },
   {
-    "id": 2,
-    "img": "trivia-apps.png",
-    "title": "Trivia",
-    "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
-  },
-  {
     "id": 3,
     "img": "Micro.png",
     "title": "Micro Logic",
+    "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
+  },
+  {
+    "id": 2,
+    "img": "trivia-apps.png",
+    "title": "Trivia",
     "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
   }
 ]
