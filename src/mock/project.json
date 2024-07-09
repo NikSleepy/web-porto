@@ -49,12 +49,92 @@
     "id": 3,
     "img": "Micro.png",
     "title": "Micro Logic",
+    "frontend": [
+      {
+        "name": "React",
+        "icon": "react.png"
+      },
+      {
+        "name": "Typescript",
+        "icon": "typescript.png"
+      },
+      {
+        "name": "ChakraUI",
+        "icon": "chakraUI.png"
+      },
+      {
+        "name": "Redux",
+        "icon": "redux.png"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "icon": "nodejs.png"
+      },
+      {
+        "name": "Typescript",
+        "icon": "typescript.png"
+      },
+      {
+        "name": "Express.JS",
+        "icon": "express.png"
+      },
+      {
+        "name": "Postgres",
+        "icon": "postgre.png"
+      },
+      {
+        "name": "Cloudinary",
+        "icon": "clouds.png"
+      }
+    ],
     "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
   },
   {
     "id": 2,
     "img": "trivia-apps.png",
     "title": "Trivia",
+    "frontend": [
+      {
+        "name": "React Native",
+        "icon": "react.png"
+      },
+      {
+        "name": "Typescript",
+        "icon": "typescript.png"
+      },
+      {
+        "name": "Gluestack",
+        "icon": "gluestack.png"
+      },
+      {
+        "name": "Redux",
+        "icon": "redux.png"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "icon": "nodejs.png"
+      },
+      {
+        "name": "Typescript",
+        "icon": "typescript.png"
+      },
+      {
+        "name": "Express.JS",
+        "icon": "express.png"
+      },
+      {
+        "name": "Postgres",
+        "icon": "postgre.png"
+      },
+      {
+        "name": "Cloudinary",
+        "icon": "clouds.png"
+      }
+    ],
     "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
   }
 ]
