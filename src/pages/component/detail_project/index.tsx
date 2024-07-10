@@ -68,20 +68,34 @@ export const DetailProject = () => {
           </div>
           <div className="w-[40%] flex flex-col items-center gap-2 ">
             <p className="text-center text-2xl font-semibold">Backend</p>
-            <ul className="-ml-24 ">
-              {item?.backend?.map((items, index) => (
-                <li key={index} className="text-xl my-2">
-                  <div className="flex gap-2 w-6 h-6 ">
-                    <img
-                      src={`/icons/${items.icon}`}
-                      alt="icon"
-                      className="bg-cover"
-                    />
-                    <p className='w-full'>{items.name}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
+
+            {item?.backend?.length === 0 ? (
+              <div className="flex flex-col items-center gap-2 w-32 h-12 text-xl font-medium">
+                <img
+                  src="/icons/not_have.png"
+                  alt="icon"
+                  className="w-2/4 my-2"
+                />
+                <p>No Backend</p>
+              </div>
+            ) : (
+              <>
+                <ul className="-ml-24 ">
+                  {item?.backend?.map((items, index) => (
+                    <li key={index} className="text-xl my-2">
+                      <div className="flex gap-2 w-6 h-6 ">
+                        <img
+                          src={`/icons/${items.icon}`}
+                          alt="icon"
+                          className="bg-cover"
+                        />
+                        <p className="w-full">{items.name}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </div>
         </div>
       </div>
