@@ -59,8 +59,8 @@
         "icon": "typescript.png"
       },
       {
-        "name": "TailwindCSS",
-        "icon": "tailwind2.png"
+        "name": "Tailwind",
+        "icon": "tailwind.png"
       }
     ],
     "backend": [],
@@ -90,10 +90,6 @@
     ],
     "backend": [
       {
-        "name": "Node.js",
-        "icon": "nodejs.png"
-      },
-      {
         "name": "Typescript",
         "icon": "typescript.png"
       },
@@ -104,10 +100,6 @@
       {
         "name": "Postgres",
         "icon": "postgre.png"
-      },
-      {
-        "name": "Cloudinary",
-        "icon": "clouds.png"
       }
     ],
     "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
