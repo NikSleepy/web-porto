@@ -21,7 +21,7 @@ export const Head = () => {
           <p className="text-4xl font-bold text-[#00B68F]">
             Nikri Aria Pratama
           </p>
-          <p className="text-xl ">Web Developer</p>
+          <p className="text-xl font-semibold">Web Developer || Fullstack Developer</p>
 
           <p className="text-justify text-lg">
             A passionate and creative web developer. With over 1 year of
