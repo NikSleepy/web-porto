@@ -1,6 +1,7 @@
 import { MyService } from './my-service';
 import { Head } from './header';
 import { HorizontalScroll } from './horizontalscroll';
+import { Skillset } from './skillset';
 export const Home = () => {
   return (
     <div className="bg-[#1F252D] text-white w-screen overflow-hidden">
@@ -14,6 +15,8 @@ export const Home = () => {
 
       </div>
       <HorizontalScroll />
+
+      <Skillset/>
     </div>
   );
 };

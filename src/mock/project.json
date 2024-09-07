@@ -64,7 +64,7 @@
       }
     ],
     "backend": [],
-    "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
+    "content": "A website that has some simple but useful features, such as calculating duration, converting currencies, and word scrambling games. With an intuitive interface and diverse functionality, Micro Logic helps users complete everyday tasks more efficiently and enjoyably."
   },
   {
     "id": 3,
@@ -102,6 +102,6 @@
         "icon": "postgre.png"
       }
     ],
-    "content": "An app inspired by the social media platform Twitter, designed to facilitate interaction and communication within a more focused and organized community"
+    "content": "A multiplayer application to guess a sound from categories such as animals, musical instruments, nature sounds, and everyday objects. Players select a category, listen to the sound played, and choose the most appropriate answer from several options provided. The app offers tiered difficulty levels, a points system and leaderboards to increase competition."
   }
 ]

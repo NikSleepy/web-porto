@@ -1,0 +1,52 @@
+[
+  {
+    "name": "React",
+    "icon": "react.png"
+  },
+  {
+    "name": "Vue",
+    "icon": "vue.png"
+  },
+  {
+    "name": "Typescript",
+    "icon": "typescript.png"
+  },
+  {
+    "name": "Redux",
+    "icon": "redux.png"
+  },
+  {
+    "name": "Express Js",
+    "icon": "express.png"
+  },
+  {
+    "name": "Node Js",
+    "icon": "nodejs.png"
+  },
+  {
+    "name": "Tailwind",
+    "icon": "tailwind.png"
+  },
+  {
+    "name": "ChakraUI",
+    "icon": "chakraUI.png"
+  },
+  {
+    "name": "Git",
+    "icon": "git.png"
+  },
+  {
+    "name": "Github",
+    "icon": "github.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "postgre.png"
+  },
+  {
+    "name": "Mysql",
+    "icon": "mysql.png"
+  }
+
+  
+]
