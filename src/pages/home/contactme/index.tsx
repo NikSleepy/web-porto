@@ -11,12 +11,12 @@ export const ContactMe = () => {
   };
 
   return (
-    <div className="w-screen h-screen bg-[#161B21]">
+    <div data-aos='fade-up' data-aos-duration='1500' id='contact' className="w-screen h-screen bg-[#161B21]">
       <div className="w-full h-full flex flex-col items-center pt-10  px-24 bg-gradient-to-br from-[#009071] to-[#6ee7b7] rounded-t-[120px]">
         <p className="text-4xl font-bold ">CONTACT</p>
 
         <div className="w-full h-full flex my-8">
-          <div className="w-[50%] flex flex-col gap-6">
+          <div data-aos="fade-right" data-aos-duration='1500' className="w-[50%] flex flex-col gap-6">
             <p className="text-2xl font-semibold">Drop Me a Message</p>
 
             <div>
@@ -56,7 +56,7 @@ export const ContactMe = () => {
             </div>
           </div>
 
-          <div className="w-[50%] flex flex-col justify-center items-center gap-6">
+          <div data-aos='fade-left' data-aos-duration='1500' className="w-[50%] flex flex-col justify-center items-center gap-6">
             <form
               action="post"
               className="w-3/4 flex flex-col justify-center items-center p-4 gap-4 rounded-xl bg-gradient-to-br from-[#6ee7b7] to-[#009071]"

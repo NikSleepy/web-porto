@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
+import '../../../assets/css/ImgShadow.css';
 
 export const Head = () => {
   const handleDownload = () => {
@@ -11,9 +12,9 @@ export const Head = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center bg-no-repeat bg-center bg-cover overflow-hidden">
+    <div id='header' className="w-screen h-screen flex flex-col justify-center items-center bg-no-repeat bg-center bg-cover overflow-hidden">
       <div className="w-[80%] h-[60%]  p-6 rounded-md flex justify-between text-white ">
-        <div className="w-[45%] flex flex-col gap-4 py-10">
+        <div className="w-[45%] flex flex-col gap-4 py-10" data-aos="fade-right">
           <p className="text-xl ">
             {' '}
             Hello, <text className=" text-[#00B68F]"> I'm</text>
@@ -49,8 +50,8 @@ export const Head = () => {
             </button>
           </div>
         </div>
-        <div className="w-[45%] flex flex-col justify-center items-center ">
-          <img src="img/profile.png" alt="hero" className="w-screen h-auto" />
+        <div className="w-[45%] flex flex-col justify-center items-center " data-aos="fade-left">
+          <img src="img/proflie1.png" alt="hero" className='img-shadow'/>
         </div>
       </div>
     </div>

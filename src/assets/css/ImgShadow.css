@@ -1,0 +1,5 @@
+.img-shadow {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(10px 10px 15px rgb(0,182,143));
+}

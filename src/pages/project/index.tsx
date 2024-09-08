@@ -1,4 +1,4 @@
-import { Navbar } from '../component/navbar';
+// import { Navbar } from '../component/navbar';
 import { CardProject } from './cardProject';
 export const AllProject = () => {
   return (

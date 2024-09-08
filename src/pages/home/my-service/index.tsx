@@ -11,7 +11,7 @@ export const MyService = () => {
       </div>
 
       <div className="flex justify-center gap-8">
-        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
+        <div data-aos="fade-right" data-aos-duration="1500" className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
           <img src="/img/coding.png" alt="ui-ux" className="w-[50%] " />
           <div className="flex flex-col text-center py-4">
             <p className="text-xl font-semibold">Performance Optimization</p>
@@ -21,7 +21,7 @@ export const MyService = () => {
             </p>
           </div>
         </div>
-        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
+        <div data-aos="fade-up" data-aos-duration="1500" className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
           <img src="/img/responsiveLogo.png" alt="ui-ux" className="w-[50%] " />
           <div className="flex flex-col text-center py-4">
             <p className="text-xl font-semibold">Responsive Web Design</p>
@@ -32,7 +32,7 @@ export const MyService = () => {
             </p>
           </div>
         </div>
-        <div className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
+        <div data-aos="fade-left" data-aos-duration="1500" className="w-72  bg-[#1F252D] flex flex-col items-center rounded-lg p-6 ">
           <img src="/img/ui-ux.png" alt="ui-ux" className="w-[50%] " />
           <div className="flex flex-col text-center py-4">
             <p className="text-xl font-semibold">UI/UX Designer</p>

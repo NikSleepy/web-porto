@@ -8,7 +8,7 @@ export const Skillset = () => {
 
             {Data?.map((items, index) => (
                 
-            <div key={index} className='w-[15%] h-60 flex flex-col justify-center items-center gap-3 ' >
+            <div data-aos="fade-up" key={index} className='w-[15%] h-60 flex flex-col justify-center items-center gap-3 ' >
                 <img src={`/icons/${items?.icon}`} alt="icon" className='w-32 h-[50%]'/>
 
                 <p className='text-2xl font-semibold'>{items?.name}</p>

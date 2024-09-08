@@ -8,7 +8,7 @@ export const Home = () => {
     <div className="bg-[#1F252D] text-white w-screen overflow-hidden">
       <Head />
       <MyService />
-      <div className="w-screen mt-10 flex flex-col items-center gap-4">
+      <div id="project" className="w-screen mt-10 flex flex-col items-center gap-4">
         <p className="text-2xl font-semibold">
           My <span className="text-[#00B68F]">Project</span>
         </p>

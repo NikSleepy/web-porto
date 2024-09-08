@@ -16,11 +16,12 @@ interface Project {
 }
 export const ProjectCard = ({ props }: { props: Project }) => {
   const [show, setShow] = React.useState(false);
+  
   return (
     <div className=" w-[100vw] h-screen flex justify-center items-center">
       <div className="w-[80%] ">
         <div className="flex h-80 rounded-lg justify-between">
-          <div className="w-[45%] h-80 flex flex-col ">
+          <div data-aos="fade-right" className="w-[45%] h-80 flex flex-col ">
             {show ? (
               <p className="text-3xl font-semibold text-[#00B68F] mb-6">
                 Stact Tecnologies
@@ -33,11 +34,11 @@ export const ProjectCard = ({ props }: { props: Project }) => {
 
             <div className="flex flex-col w-full h-96 text-lg">
               {show ? (
-                <div className="flex gap-20 p-3">
-                  <div>
+                <div  className="flex gap-20 p-3">
+                  <div data-aos='fade-right'>
                     <p className="py-2 text-xl font-semibold">Frontend</p>
 
-                    <ul className="flex flex-col gap-1">
+                    <ul  className="flex flex-col gap-1">
                       {props?.frontend?.map((item) => (
                         <li>
                           <div className="flex gap-2 w-6 h-6 ">
@@ -52,7 +53,7 @@ export const ProjectCard = ({ props }: { props: Project }) => {
                       ))}
                     </ul>
                   </div>
-                  <div className="">
+                  <div data-aos='fade-right'>
                     <p className="py-2 text-xl font-semibold">Backend</p>
 
                     {props?.backend?.length !== 0 ? (
@@ -79,7 +80,7 @@ export const ProjectCard = ({ props }: { props: Project }) => {
                 </div>
               ) : (
                 <div className="w-full h-44 overflow-y-auto hide-scrollbar">
-                  <p className=" text-lg text-justify ">{props?.content}</p>
+                  <p data-aos='fade-right' className=" text-lg text-justify ">{props?.content}</p>
                 </div>
               )}
             </div>
@@ -100,6 +101,7 @@ export const ProjectCard = ({ props }: { props: Project }) => {
             </div>
           </div>
           <img
+            data-aos="fade-left"
             src={`img/${props?.img}`}
             alt="circle"
             className="w-[45%] rounded-md"

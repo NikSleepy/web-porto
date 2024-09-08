@@ -1,31 +1,40 @@
-import {  FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import { IoLogoGithub } from 'react-icons/io';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+// import { Link } from 'react-router-dom';
 
-export const Navbar = ({ bgClass }: { bgClass: string }) => {
-
+export const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between items-center w-[15%]">
+      <div className="flex justify-between items-center w-[15%]" data-aos="fade-down">
         <img src="/img/logoN.png" alt="logo" className="w-[50px] h-auto" />
         <text className="text-4xl font-semibold ml-4">Portfolio</text>
       </div>
 
-      <ul className="flex gap-4 text-xl w-[80%] justify-center items-center">
-        <li className={`${bgClass == 'Home' ?  'text-white scale-105' : 'text-[#00B68F]' } hover:text-white`}>
-          <Link to={'/'}>Home</Link>
+      <ul className="flex gap-4 text-xl w-[80%] justify-center items-center" data-aos="fade-down">
+        <li className="text-[#00B68F] cursor-pointer">
+          {/* <a href="#header">Home</a> */}
+          <Link to="header" spy={true} smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
-        <li className={`${bgClass == 'Project' ?  'text-white scale-105' : 'text-[#00B68F]' } hover:text-white `}>
+        <li className="text-[#00B68F] cursor-pointer">
           {' '}
-          <Link to={'/project'}>Project</Link>
+          {/* <a href="#project">Project</a> */}
+          <Link to="project" spy={true} smooth={true} duration={500}>
+            Project
+          </Link>
         </li>
-        <li className={`${bgClass == 'Contact' ?  'text-white scale-105' : 'text-[#00B68F]' } hover:text-white `}>
+        <li className="text-[#00B68F] cursor-pointer">
           {' '}
-          <Link to={'/contact'}>Contact</Link>
+          {/* <a href="#contact">Contact</a> */}
+          <Link to="contact" spy={true} smooth={true} duration={500} >
+            Contact
+          </Link>
         </li>
       </ul>
 
-      <div className="flex justify-center gap-4 w-[15%]">
+      <div className="flex justify-center gap-4 w-[15%]" data-aos="fade-down">
         <a href="https://github.com/NikSleepy">
           <IoLogoGithub size={45} color="#00B68F" />
         </a>
