@@ -41,7 +41,7 @@ export const Layout = () => {
   return (
     <div className="bg-[#1F252D] text-white w-screen h-auto ">
       <div
-        className={`fixed flex justify-between top-0 w-full bg-transparent text-white py-10 px-14 backdrop-blur-lg transition-transform z-30 duration-300 ${
+        className={`fixed flex justify-between top-0 w-full bg-transparent text-white py-3 lg:py-10 px-10 lg:px-14 backdrop-blur-lg transition-transform z-30 duration-300 ${
           isVisible ? 'transform translate-y-0' : 'transform -translate-y-full'
         }`}
       >

@@ -39,7 +39,7 @@ export const HorizontalScroll = () => {
   return (
     <section className="overflow-hidden">
       <div ref={triggerRef}>
-        <div ref={sectionRef} className="h-screen w-[300vw] flex relative ">
+        <div ref={sectionRef} className="h-screen w-[400vw] flex relative ">
           {Data.map((item, index)=> (
             <ProjectCard key={index} props={item} />
           ))}

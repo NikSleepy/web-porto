@@ -34,8 +34,8 @@ export const ProjectCard = ({ props }: { props: Project }) => {
 
             <div className="flex flex-col w-full h-96 text-lg">
               {show ? (
-                <div  className="flex gap-20 p-3">
-                  <div data-aos='fade-right'>
+                <div  className="flex gap-14 p-3">
+                  <div data-aos='fade-right' className=' w-40'>
                     <p className="py-2 text-xl font-semibold">Frontend</p>
 
                     <ul  className="flex flex-col gap-1">
@@ -53,7 +53,7 @@ export const ProjectCard = ({ props }: { props: Project }) => {
                       ))}
                     </ul>
                   </div>
-                  <div data-aos='fade-right'>
+                  <div data-aos='fade-left' className='w-40'>
                     <p className="py-2 text-xl font-semibold">Backend</p>
 
                     {props?.backend?.length !== 0 ? (
