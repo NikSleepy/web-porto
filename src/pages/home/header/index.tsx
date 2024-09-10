@@ -5,8 +5,8 @@ import '../../../assets/css/ImgShadow.css';
 export const Head = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/pdf/CV_Nikri Aria Pratama.pdf';
-    link.download = 'CV_Nikri Aria Pratama.pdf';
+    link.href = '/pdf/CV_NikriAria.pdf';
+    link.download = 'CV_NikriAria.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
