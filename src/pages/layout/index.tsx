@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Navbar } from '../component/navbar';
 import { Outlet, useLocation} from 'react-router-dom';
 import AOS from 'aos';
