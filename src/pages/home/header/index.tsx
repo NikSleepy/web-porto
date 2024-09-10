@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import '../../../assets/css/ImgShadow.css';
 
