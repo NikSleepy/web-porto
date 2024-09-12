@@ -10,6 +10,7 @@ interface Project {
   id: number;
   img: string;
   title: string;
+  link: string;
   frontend?: Stack[];
   backend?: Stack[];
   content: string;
@@ -101,7 +102,7 @@ export const ProjectCard = ({ props }: { props: Project }) => {
           <div className="w-2/3 md:w-1/2 flex gap-4 ">
             <div className="w-2/4 flex justify-center  bg-[#00B68F] text-white font-semibold rounded-md p-2 my-4 drop-shadow-[0_2px_10px_rgba(0,182,143)] hover:drop-shadow-[0_4px_10px_rgba(0,182,143)] hover:bg-white hover:text-[#00B68F]">
               <button>
-                <Link to={'/'}>See More</Link>
+                <Link to={`${props?.link}`}>View</Link>
               </button>
             </div>
             <div className="w-2/4 flex justify-center  bg-[#00B68F] text-white font-semibold rounded-md p-2 my-4 drop-shadow-[0_2px_10px_rgba(0,182,143)] hover:drop-shadow-[0_4px_10px_rgba(0,182,143)] hover:bg-white hover:text-[#00B68F]">
